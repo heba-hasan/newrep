@@ -1,0 +1,7 @@
+to remove branches locally 
+git branch -d dev //softly or use -D to remove hardly
+git branch -d test
+
+remotly
+git push origin :dev
+git push origin :test
